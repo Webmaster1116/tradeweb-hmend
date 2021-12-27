@@ -1,0 +1,79 @@
+#blogs {
+    padding: 1em 0;
+}
+#blogs .top-cards {
+    margin-top: 30px;
+}
+
+.blog-read-more div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 0;
+}
+.blog-read-more button {
+    font-size: 20px;
+    color: #f8fcfc;
+    background: #fc6500;
+    height: 85px;
+    width: 350px;
+    border: none;
+    border-radius: 43px;
+}
+
+#blogDetail {
+    padding: 4em 0;
+}
+.information-filter-header {
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.blog-latest-post {
+    display: flex;
+}
+.filter-content {
+    background: #fffaf7;
+    padding: 30px;
+}
+.post-detail {
+    line-height: 1.8;
+    font-weight: 100;
+    padding-left: 10px;
+}
+.post-detail span {
+    color: #000 !important;
+    font-weight: 100;
+}
+.post-detail p {
+    color: rgb(0, 0, 0, 0.48);
+}
+.detail-categories div {
+    display: flex;
+}
+.detail-categories div span {
+    background: #fff;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    color: rgb(0, 0, 0, 0.48);
+}
+.blog-main-img {
+    width: 100%;
+}
+.blog-detail-header {
+    font-size: 28px;
+    font-weight: 100;
+}
+.blog-detail-content {
+    font-weight: 100;
+    line-height: 2;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.blog-detail-text {
+    padding: 30 30px;
+}

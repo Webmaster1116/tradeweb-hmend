@@ -1,0 +1,108 @@
+#about {
+    padding: 4em 0;
+}
+
+.about-content {
+    line-height: 2.3;
+    padding-right: 50px !important;
+}
+.about-text {
+    color: rgb(0, 0, 0, 0.58);
+    padding-top: 10px;
+}
+.about-img img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+#aboutType {
+    height: 500px;
+    background: linear-gradient(
+            rgba(252, 101, 0, 0.9) 100%,
+            rgba(252, 101, 0, 0.9) 100%
+        ),
+        url(../img/about/about-type.svg);
+    padding-top: 100px;
+}
+
+#aboutType .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10%;
+}
+.type-card {
+    text-align: center;
+    width: 24%;
+    line-height: 2.3;
+}
+.type-card p {
+    font-size: 25px;
+    color: #fff;
+    margin: 10px 0 0;
+    font-weight: 100;
+}
+.type-card span {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+}
+
+#aboutPartner {
+    padding: 5em 0;
+}
+.partner-img {
+    padding-right: 5% !important;
+}
+.partner-img img {
+    width: 100%;
+}
+.partner-content {
+    padding: 0 5% !important;
+    margin-top: 50px;
+}
+.find-more {
+    width: 40%;
+    font-weight: 100;
+    height: 73px !important;
+    margin-top: 50px;
+}
+#mission {
+    padding-bottom: 4em;
+}
+#mission .container {
+    margin-top: -17em;
+}
+#mission .row {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    padding: 3em;
+}
+.question-why {
+    display: flex;
+    align-items: center;
+    height: 82px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.question-why img {
+    padding-right: 20px;
+}
+.why-up {
+    color: #f8fcfc;
+    font-weight: 100;
+    background: #fc6500;
+}
+.why-down {
+    font-weight: 100;
+    background: rgb(0, 0, 0, 0.03);
+}
+.question-content {
+    padding-left: 50px !important;
+    line-height: 2.3;
+}
+@media (max-width: 1366px) {
+}

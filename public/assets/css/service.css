@@ -1,0 +1,219 @@
+#service {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(84, 84, 84, 0)),
+        url(../img/service/service-bg.png);
+    height: 885px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.service-average {
+    margin-top: 7em;
+}
+.service-header {
+    color: #f8fcfc;
+    text-align: center;
+}
+.service-rating {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.service-rating span {
+    font-size: 25px;
+    color: #f8fcfc;
+    font-weight: 100;
+}
+.service-rating div {
+    margin-left: 20px;
+}
+.service-rating div img {
+    padding: 0 5px;
+}
+.postcode {
+    width: 60%;
+}
+.postcode-input {
+    height: 85px !important;
+    border-radius: 43px !important;
+    border: 2px solid #fff !important;
+    background: rgba(255, 255, 255, 0.77) !important;
+}
+.postcode-group {
+    display: flex;
+    justify-content: center;
+}
+.postcode-btn-started {
+    padding: 0 75px;
+    font-size: 20px;
+}
+.average-rating {
+    background: rgb(255, 255, 255, 0.16);
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin-top: 4em;
+    width: 80%;
+    margin-left: 10%;
+}
+.average-rating-header {
+    font-size: 35px;
+    color: #f8fcfc;
+    font-weight: 100;
+    text-align: center;
+}
+
+.service-quote {
+    padding: 3em 2em !important;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8em !important;
+}
+.service-quote-header {
+    font-size: 45px;
+}
+.service-quote-header span {
+    font-size: 25px;
+    font-weight: 100;
+    color: rgb(0, 0, 0, 0.5);
+    display: block;
+    margin-top: 20px;
+}
+.service-quote-rating span {
+    font-size: 25px;
+}
+.service-quote-rating-stars {
+    display: flex;
+    align-items: center;
+}
+.service-quote-rating-stars div {
+    padding-left: 10px;
+}
+.service-quote-rating-stars div img {
+    padding: 0 5px;
+}
+.service-quote-btn {
+    color: #fff;
+    background: #fc6500;
+    height: 84px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 20px;
+}
+#suburb {
+    margin-top: 4em;
+}
+.suburb-header {
+    text-align: center;
+}
+.suburb-header-btns {
+    margin-top: 40px;
+}
+.suburb-header-btns button {
+    height: 85px;
+    width: 20%;
+    font-size: 20px;
+    border-radius: 43px;
+    border: none;
+    margin: 10px;
+}
+.suburb-header-btns button.active {
+    color: #fff;
+    background: #fc6500;
+}
+#suburb .row {
+    margin-top: 3em;
+}
+.quote-card {
+    background: #fffaf7;
+    padding: 30px 20px;
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.card-title {
+    font-size: 20px;
+}
+.card-info div {
+    display: flex;
+    padding: 5px 0;
+}
+.card-info span {
+    color: #fc6500;
+}
+.card-info span span {
+    color: rgb(0, 0, 0, 0.5);
+}
+.card-info img {
+    margin-right: 10px;
+}
+.card-btns-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 3em;
+}
+.card-star-rate {
+    padding-right: 10px;
+}
+.quote-card .card-text {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000 !important;
+    line-height: 2;
+    margin-top: 20px;
+}
+.card-btns-group button {
+    color: #fff;
+    background: #fc6500;
+    height: 84px;
+    border-radius: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0 70px;
+}
+.card-btns {
+    display: flex;
+    align-items: center;
+}
+.card-btns a {
+    color: #000 !important;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.card-btns-group span {
+    color: #fc6500;
+}
+.pagenation-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em 0 4em;
+}
+.pagenation-btn button {
+    width: 72px;
+    height: 72px;
+    border-radius: 43px;
+    color: #000;
+    border: none;
+    margin: 0 20px;
+    font-size: 30px;
+}
+.pagenation-btn button:hover {
+    color: #fff;
+    background: #fc6500;
+}
+@media (max-width: 1366px) {
+    .service-quote {
+        margin-top: -22em !important;
+    }
+    .service-average {
+        margin-top: 3em;
+    }
+}

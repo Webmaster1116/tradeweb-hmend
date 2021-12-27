@@ -1,0 +1,45 @@
+#list {
+    padding: 4em 0 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-business {
+    width: 50%;
+    padding: 3em 7%;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    text-align: center;
+}
+.list-business .title {
+    margin-bottom: 50px;
+}
+.name-input-group .has-search {
+    width: 48%;
+}
+.has-full-input {
+    width: 100% !important;
+}
+#list .form-group {
+    margin-bottom: 30px !important;
+}
+.list-business .form-control {
+    background: rgb(0, 0, 0, 0.03) !important;
+    font-size: 16px !important;
+}
+.name-input-group {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-lock {
+    font-size: 24px !important;
+}
+.fa-envelope {
+    font-size: 18px !important;
+}
+.submit-list {
+    width: 70%;
+    margin-top: 30px;
+}

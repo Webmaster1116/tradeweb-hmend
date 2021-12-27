@@ -1,0 +1,595 @@
+#welcome {
+    background-image: url("../img/home/home.svg");
+    height: 885px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -1px;
+}
+/* How it works */
+#home-works {
+    margin-bottom: 7em;
+}
+.home-title {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.how-works {
+    margin-top: -10em;
+    background: #fff;
+    padding: 3em 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+.how-works .works-card {
+    text-align: center;
+    background: rgb(252, 101, 0, 0.03);
+    padding: 50px;
+    border-radius: 10px;
+    height: 340px;
+}
+.how-works .works-card div {
+    margin: 50px 0 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.how-works .works-card p {
+    font-weight: 100;
+}
+.home-header-btn {
+    color: #333333;
+    font-size: 16px;
+    background: #fff;
+    border: none;
+    padding: 10px 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.smarter {
+    margin-top: 10em;
+}
+.smarter-header {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fc6500;
+}
+.home-header-btn.active {
+    color: #fff;
+    background-color: #000;
+}
+.home-header-btn:hover {
+    color: #fff;
+    background-color: #000;
+}
+.search-group {
+    display: flex;
+    margin: 3em 0 2em;
+}
+.has-search {
+    width: 38%;
+}
+.has-search .form-control-feedback {
+    right: initial;
+    left: 0;
+    color: #fc6500;
+}
+.smarter-search-btn-group {
+    color: #fff;
+    background: #fc6500;
+    height: 84px;
+    padding: 0 60px;
+    border: 2px solid #fff;
+    border-radius: 43px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smarter-search-btn {
+    padding-right: 10px;
+}
+.smarter-btns button {
+    color: #fc6500;
+    background: #fff;
+    height: 75px;
+    border: 2px solid #fc6500;
+    border-radius: 43px;
+    width: 250px;
+    margin-right: 20px;
+}
+.has-search .form-control {
+    padding-right: 12px;
+    padding-left: 70px;
+}
+.select-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.header-select .form-control {
+    height: 50px !important;
+    padding: 6px 20px !important;
+}
+.header-select-btn {
+    margin-left: 4em;
+    color: #fff;
+    background: #000;
+    padding: 15px 40px !important;
+    margin-right: 0px !important;
+}
+.header-select-btn span {
+    margin-right: 20px;
+}
+.header-select-btn:hover {
+    color: #fff;
+}
+
+/* Categories */
+.category-cards .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.category-card {
+    width: 18%;
+    background: rgb(0, 0, 0, 0.02);
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+.categories div {
+    display: flex;
+    justify-content: center;
+}
+.categories span {
+    font-size: 22px;
+    color: #696969;
+    margin-top: 20px;
+    display: block;
+}
+.category-title {
+    margin-top: 1.5em;
+}
+
+/* Number */
+#numbers {
+    height: 380px;
+    background: linear-gradient(
+            rgba(252, 101, 0, 0.9) 100%,
+            rgba(252, 101, 0, 0.9) 100%
+        ),
+        url("../img/home/number-bg.svg");
+    padding-top: 100px;
+}
+
+#numbers .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.number-card {
+    text-align: center;
+}
+.number-card p {
+    font-size: 35px;
+    color: #fff;
+    margin: 10px 0px 0;
+}
+.number-card span {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* Trust and Security */
+#trust {
+    padding: 5em;
+}
+.trust-cards .trust-card {
+    display: flex;
+    background: rgb(252, 101, 0, 0.03);
+    padding: 50px;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+.trust-cards .trust-card span {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.trust-cards .trust-card p {
+    font-weight: 100;
+    line-height: 2;
+}
+.trust-card-img {
+    margin-right: 40px;
+}
+.trust-cards .row {
+    margin-top: 30px;
+}
+
+/* Property types */
+
+#property-types {
+    padding: 3em 0 5em;
+}
+.property {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+.property-header {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.card {
+    display: grid;
+    text-align: center;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+}
+.card-content {
+    font-size: 11px;
+    opacity: 0.35;
+}
+.home-search {
+    height: 85px !important;
+    border-radius: 43px !important;
+}
+.form-control-feedback {
+    line-height: 50px !important;
+    padding-left: 20px;
+    top: 18px !important;
+    left: 20px !important;
+}
+
+/* Top Properties */
+
+.top-card {
+    text-align: start;
+    background: #fff;
+    padding: 0px !important;
+    border-radius: 12px;
+}
+.top-card .card-top-img {
+    width: 100%;
+}
+.top-card .card-title {
+    color: #333333;
+    margin: 5px 0 10px !important;
+}
+.card-text {
+    font-size: 12px;
+    color: #696969;
+}
+.card-price {
+    color: #15bf02;
+    font-size: 16px;
+}
+.card-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.card-icon {
+    display: grid;
+}
+.card-icon div {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.card-icon span {
+    display: grid;
+    margin-top: 10px;
+}
+.card-body {
+    padding: 20px;
+}
+.news-clock {
+    display: flex;
+    margin-bottom: 20px;
+}
+.top-card .card-body span {
+    color: rgb(0, 0, 0, 0.5);
+    font-weight: 100;
+    padding-left: 10px;
+}
+.card-view-btn {
+    color: #fc6500;
+    font-size: 22px !important;
+    font-weight: bold !important;
+    text-decoration: underline;
+}
+.card-view-btn:hover {
+    color: #fc6500 !important;
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-avatar {
+    display: flex;
+}
+.card-avatar div {
+    display: grid;
+    align-items: center;
+    margin-left: 10px;
+}
+.card-avatar-name {
+    font-size: 12px;
+    color: #333333;
+}
+.card-avatar-position {
+    font-size: 10px;
+    color: #333333;
+}
+.card-status {
+    position: absolute;
+    right: 15px;
+}
+
+/* Testimonial */
+
+#testimonial {
+    padding: 1em 0 5em;
+}
+#testimonial .container {
+    margin-top: -22em;
+}
+.testimonial-bg {
+    background-color: rgb(252, 101, 0, 0.05);
+    height: 426px;
+}
+.team-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.team-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 3em;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    margin-bottom: 10px;
+}
+.team-img {
+    display: flex;
+}
+.team-imgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -4em;
+}
+.testimonial-content {
+    font-size: 16px;
+    font-weight: 100;
+    display: block;
+    line-height: 2;
+    margin-top: 4em;
+}
+.testimonial-name {
+    font-size: 25px;
+    font-weight: 100;
+    display: block;
+    padding-top: 20px;
+}
+.slide-btns a {
+    margin-left: 10px;
+}
+.slide-btns a:hover {
+    text-decoration: none;
+}
+.carousel-indicators {
+    bottom: -6em !important;
+}
+.carousel-indicators li {
+    width: 20px !important;
+    height: 20px !important;
+    background-color: rgb(0, 0, 0, 0.2) !important;
+    border-radius: 20px !important;
+    margin-left: 10px !important;
+}
+
+.carousel-indicators .active {
+    width: 40px !important;
+    height: 20px !important;
+    margin: 1 !important;
+    background-color: #fc6500 !important;
+    border-radius: 20px !important;
+    margin-left: 10px !important;
+}
+.property-header p {
+    font-size: 20px !important;
+    color: #696969 !important;
+    margin-top: 20px;
+}
+
+/* Blog */
+#blog {
+    padding: 6em;
+}
+.blog-title {
+    margin-bottom: 1.5em;
+}
+.top-cards .top-card {
+    background: rgb(0, 0, 0, 0.02) !important;
+}
+.top-cards .card-body {
+    padding: 30px !important;
+}
+.top-cards .card-title {
+    font-size: 22px !important;
+    line-height: 1.3;
+    margin-bottom: 15px !important;
+}
+.top-cards .card-text {
+    font-size: 16px !important;
+}
+.top-cards .card-view-btn {
+    margin-top: 10px;
+    padding: 0 !important;
+}
+.articles a {
+    font-size: 20px !important;
+    color: #000 !important;
+    text-decoration: underline !important;
+}
+.articles a:hover {
+    font-weight: bold;
+}
+
+.orange-btn {
+    color: #f8fcfc;
+    background: #fc6500;
+    height: 85px;
+    border: none;
+    border-radius: 43px;
+}
+.title {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 1366px) {
+    .smarter {
+        margin-top: 5em;
+    }
+    .how-works {
+        margin-top: -25em;
+    }
+    .select-group {
+        width: 60%;
+    }
+    .card-img {
+        width: 135px;
+        height: 130px;
+    }
+    #top .header {
+        font-size: 50px;
+    }
+
+    #blog .card-title {
+        font-size: 22px !important;
+    }
+    .card-icon span {
+        font-size: 12px;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+    .how-works .works-card div {
+        margin: 30px 0 20px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .trust-cards .trust-card {
+        padding: 30px;
+    }
+    .trust-card-img {
+        margin-right: 30px;
+    }
+    .trust-cards .trust-card p {
+        line-height: 1.6;
+    }
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 640px) {
+}
+@media (max-width: 840px) {
+}
+@media (min-width: 480px) and (max-width: 640px) {
+}
+@media (max-width: 480px) {
+    .top-title {
+        padding-top: 2em;
+    }
+    #top .header {
+        font-size: 32px;
+    }
+    #top .header-content {
+        font-size: 18px;
+    }
+    #top .btn-group {
+        margin-top: 2em;
+    }
+    .home-header-btn {
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+    .has-search {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .has-search .form-control {
+        font-size: 12px !important;
+    }
+    .select-group {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .header-select {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .header-select .form-control {
+        font-size: 12px !important;
+    }
+    .select-search {
+        margin: auto;
+        margin-top: 30px;
+    }
+    .header-select-btn {
+        margin-left: 0px;
+    }
+
+    .card-title {
+        font-size: 12px;
+        margin: 0;
+    }
+    .card-img {
+        width: 100px;
+        height: 100px;
+    }
+    .card {
+        margin-bottom: 1em;
+    }
+
+    #testimonial {
+        padding: 3em 0 5em;
+    }
+
+    #blog .card-title {
+        font-size: 14px !important;
+    }
+    #blog .card-text {
+        font-size: 10px !important;
+    }
+    .articles a {
+        font-size: 14px !important;
+    }
+}
